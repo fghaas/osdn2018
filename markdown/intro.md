@@ -6,7 +6,7 @@
 
 Florian Haas | [@xahteiwi](https://twitter.com/xahteiwi)
 
-OpenStack Days Nordic 2018 | 2018-10-09
+OpenStack Days Nordic 2018 | 2018-10-10
 
 Note:
 
