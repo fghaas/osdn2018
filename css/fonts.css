@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Cabin';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Cabin"), local("Cabin-Regular"), url(../fonts/cabin.ttf) format("truetype");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Cabin';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local("Cabin Bold"), local("Cabin-Bold"), url(../fonts/cabin-bold.ttf) format("truetype");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-bold.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Special Elite';
