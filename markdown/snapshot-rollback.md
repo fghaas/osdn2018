@@ -33,7 +33,11 @@ What `heat-engine` does with respect to Cinder volumes
 (`OS::Cinder::Volume` resources) is actually something _other_ than
 create a volume _snapshot:_ in reality, it creates a volume _backup_
 using the `cinder-backup` service. If your cloud doesn’t run
-`cinder-backup`, then no snapshots for you.
+`cinder-backup`, then no snapshots for you. (The thinking behind this
+is that when you delete a stack and delete its volumes, then the
+volume snapshots go away as well. You normally don’t want that,
+instead you want your volume contents to be preserved for posterity in
+some way. Backups do that for you.)
 
 
 ### Stack snapshots
