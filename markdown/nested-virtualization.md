@@ -20,7 +20,7 @@ cpu_model = IvyBridge
 ```
 
 
-![Meltdown logo](https://meltdownattack.com/images/meltdown.min.svg)
+<!-- .slide: data-background="https://meltdownattack.com/images/meltdown.min.svg" data-background-size="contain" -->
 
 
 Before Rocky:
