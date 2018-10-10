@@ -1,3 +1,4 @@
+# 2
 ## Fast instance configuration
 with `cloud-config`
 
