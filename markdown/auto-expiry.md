@@ -25,3 +25,26 @@ automated fashion. (All credit to CERN for that support.)
 There is a [Juju charm for
 Mistral](https://github.com/openstack/charm-mistral), but
 unfortunately it hasn’t seen much love in 2 years.
+
+
+### Clever use of instance properties
+
+
+```
+task(retrieve_all_projects)
+  .result
+  .select(dict(id => $.id,
+               name => $.name,
+               enabled => $.enabled,
+               type => $.get('type','none'),
+               expire => $.get('expire','off')))
+  .where($.type='personal')
+  .where($.enabled)
+  .where($.expire='on')
+```
+[YAQL](https://yaql.readthedocs.io/en/latest/)
+
+
+<https://goo.gl/p3YzTT>
+
+OpenStack in Production (CERN)
