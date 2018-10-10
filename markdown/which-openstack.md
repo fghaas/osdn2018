@@ -2,26 +2,6 @@
 
 
 ```
-$ sudo dmidecode | head -n30
-# dmidecode 3.0
-Getting SMBIOS data from sysfs.
-SMBIOS 2.8 present.
-9 structures occupying 436 bytes.
-Table at 0x000F6880.
-
-Handle 0x0000, DMI type 0, 24 bytes
-BIOS Information
-        Vendor: SeaBIOS
-        Version: 1.10.2-1ubuntu1~cloud0
-        Release Date: 04/01/2014
-        Address: 0xE8000
-        Runtime Size: 96 kB
-        ROM Size: 64 kB
-        Characteristics:
-                BIOS characteristics not supported
-                Targeted content distribution is supported
-        BIOS Revision: 0.0
-
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
         Manufacturer: OpenStack Foundation
@@ -33,3 +13,4 @@ System Information
         SKU Number: Not Specified
         Family: Virtual Machine
 ```
+`dmidecode`
