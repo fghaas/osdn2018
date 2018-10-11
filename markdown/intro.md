@@ -1,7 +1,7 @@
 <!-- .slide: data-background-image="images/citynetwork-logo.svg"  data-background-size="10% 10%" data-background-position="10% 10%" -->
 # The Little Bag O’Tricks
 
-10 Things You Might Not Know You Can Do With OpenStack
+~~10~~ 11 Things You Might Not Know You Can Do With OpenStack
 
 * * *
 
